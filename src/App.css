@@ -1,0 +1,248 @@
+/* App.css */
+
+* {
+  margin: 1px;
+  padding: 0px;
+  border: 1px solid black;
+}
+
+.Container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.Box1 {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #fbfbfb;
+}
+
+.Header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navigation button {
+  background-color: transparent;
+  border: none;
+}
+
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.Box2 {
+  height: 90vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Heading {
+  padding-top: 50px;
+  width: 100%;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.Namari {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Info {
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.Start {
+  background-color: transparent;
+  border: 2px solid black;
+  font-weight: bold;
+  padding: 10px;
+  width: 50%;
+}
+
+.Box3 {
+  height: 50vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.H1 h2 {
+  text-decoration: solid black;
+  font-size: 40px;
+}
+
+.H1 p {
+  padding-top: 50px;
+}
+
+.Box4 {
+  padding-top: 40px;
+  padding-left: 30px;
+  height: 20vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.HTML p {
+  padding-top: 10px;
+  padding-bottom: 65px;
+}
+
+.Easy p {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.Fully p {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.Parallax p {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.HTML5 {
+  padding-top: 20px;
+  font-size: 15px;
+  background-color: #fbfbfb;
+}
+
+.note1 {
+  padding-top: 20px;
+  height: 80vh;
+  width: 20vw;
+  font-size: 15px;
+  background-color: #fbfbfb;
+}
+
+.Box5 {
+  height: 20vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.Box5 h4 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.Box6 {
+  padding-left: 40px;
+}
+
+.Box7 {
+  padding-top: 100px;
+}
+
+.Box7 .Gallery1 img,
+.Box7 .Gallery2 img {
+
+  height: 280px;
+  width: 400px;
+}
+
+.Box8 {
+  height: 50vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.Box9 {
+  height: 20vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.H2 h2 {
+  font-weight: 40px;
+  text-align: right;
+}
+
+.H2 p {
+  font-weight: 20px;
+  text-align: right;
+}
+
+.Box10 {
+  padding-left: 30px;
+  height: 40vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.H3 h4 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.H3 h1 {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 30px;
+}
+
+.H3 h3 {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.H3 p {
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.H3 .photo img {
+  width: 10px;
+  height: 20px;
+  
+}
